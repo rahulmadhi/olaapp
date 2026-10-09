@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bolder;
+      }
+
+      #navbar {
+        height: 75px;
+        background-color: rgba(211, 211, 211, 0.781);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.379);
+      }
+
+      #container {
+        height: 80vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+
+      .boxes {
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.379);
+        border: 20px;
+        background-color: lightgray;
+        width: 30vw;
+        border-radius: 20px;
+      }
+      .boxes div {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 9px;
+      }
+
+      #box1 img {
+        height: 300px;
+      }
+
+      input {
+        width: 80%;
+        padding: 7px;
+        border: none;
+        border-radius: 20px;
+      }
+
+      button {
+        border-radius: 20px;
+        border: none;
+        background-color: black;
+        color: #d7df22;
+        padding: 10px;
+        width: 80%;
+        transition: all 0.6s;
+      }
+
+      button:hover {
+        color: black;
+        background-color: #d7df22;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="navbar">
+      <img
+        height="100.49px"
+        src="https://1000logos.net/wp-content/uploads/2022/08/Ola-Cabs-Logo.png"
+        alt=""
+      />
+    </div>
+
+    <div id="container">
+      <div class="boxes">
+        <div id="box1">
+          <img
+            src="https://static.vecteezy.com/system/resources/thumbnails/044/242/798/small/a-sleek-yellow-sports-bike-stands-ready-for-action-png.png"
+            alt=""
+          />
+        </div>
+        <div id="box2">
+          <input type="text" placeholder="enter km " />
+        </div>
+        <div id="box3">
+          <button onclick="book()">BOOK NOW</button>
+        </div>
+      </div>
+      <div class="boxes">
+        <div id="box1">
+          <img
+            src="https://png.pngtree.com/png-clipart/20250124/original/pngtree-auto-rickshaw-png-image_20303035.png"
+            alt=""
+          />
+        </div>
+        <div id="box2">
+          <input type="text" placeholder="enter km" />
+        </div>
+        <div id="box3">
+          <button>BOOK NOW</button>
+        </div>
+      </div>
+      <div class="boxes">
+        <div id="box1">
+          <img
+            src="https://png.pngtree.com/png-vector/20240905/ourmid/pngtree-black-electric-car-illustration-clipart-png-image_13757062.png"
+            alt=""
+          />
+        </div>
+        <div id="box2">
+          <input type="text" placeholder="enter km" />
+        </div>
+        <div id="box3">
+          <button>BOOK NOW</button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+  
+    </script>
+  </body>
+</html>
